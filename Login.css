@@ -1,0 +1,116 @@
+body
+{
+    background: linear-gradient(334deg, #6af187, #20f781a1, #1eff0aa9);
+    background-size: 180% 180%;
+}
+
+.loginmeio
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login
+{
+    margin-top: 230px;
+    display: flex;
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 1px 14px 1px rgba(0,0,0,0.74);
+    row-gap: 40px;
+}
+
+.logintitulo
+{
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+}
+
+.loginbox
+{
+    position: relative;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formatar
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    height: 40px;
+}
+
+.esqueceu
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.conta
+{
+    font-size: 15px;
+    position: relative;
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    color: #000;
+}
+
+.conta::before
+{
+    position: absolute;
+    content: "";
+    left: -90px;
+    top: 10px;
+    width: 80px;
+    height: 1px;
+    background-color: rgb(53, 53, 53);
+}
+
+.conta::after
+{
+    position: absolute;
+    content: "";
+    right: -90px;
+    top: 10px;
+    width: 80px;
+    height: 1px;
+    background-color: rgb(53, 53, 53);
+}
+
+.entrarbotao{
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(334deg, #9af5bd, #24f8a7, #00ff0d);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+    transition: 0.3s all ease-in-out;
+}
+
+
+.imgs
+{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+
+
+
+
